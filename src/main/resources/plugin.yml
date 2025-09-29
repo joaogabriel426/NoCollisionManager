@@ -1,0 +1,11 @@
+name: NoCollisionManager
+version: ${project.version}
+main: com.seuservidor.nocollisionmanager.NoCollisionManager
+api-version: '1.21'
+depend: [LuckPerms]
+author: SeuNome
+description: Gerencia a colisão de jogadores com uma permissão de bypass.
+permissions:
+  nocollision.bypass:
+    description: Permite que o jogador tenha colisão normal com entidades.
+    default: false
